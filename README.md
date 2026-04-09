@@ -18,8 +18,8 @@ To ensure high-quality inputs for the classifiers, the following transformations
 
 ### B. Modeling & Evaluation
 * **Supervised Learning:** A comparative study was conducted across multiple categories, including Tree-based models (J48, Random Forest), Rule-based models (Decision Table), and Ensemble methods (AdaBoostM1).
-* **Evaluation Metrics:** Accuracy was used as the primary performance indicator. Additionally, Mean Absolute Error (MAE) was monitored to assess the probability deviation and the confidence level of the predictions.
-
+* **Evaluation Metrics:** Accuracy was used as the primary performance indicator.
+* 
 ## 4. Results & Observations
 * **Performance:** The **Decision Table** algorithm achieved the highest accuracy of **99.66%**, followed by **J48** and **AdaBoostM1**, both exceeding 99%.
 * **Comparison:** Tree-based and rule-based models demonstrated superior performance in capturing non-linear relationships within the sensor data compared to baseline probabilistic models.
